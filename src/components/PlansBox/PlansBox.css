@@ -1,0 +1,28 @@
+.plans-box-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  opacity: 0.8;
+}
+
+.plans-box-container:hover {
+  opacity: 1;
+}
+
+.plans-box-container > button {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  font-weight: 600;
+}
+
+.plan-disabled > button {
+  background-color: gray !important;
+  color: black;
+}
+
+/* .renewal-date {
+  margin-top: 1rem;
+} */

@@ -1,0 +1,48 @@
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 3rem;
+  width: 100%;
+  height: 4rem;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav-black {
+  background-color: #111;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  position: fixed;
+  left: 0;
+  top: 10px;
+  width: 12rem;
+  object-fit: contain;
+  padding-left: 3rem;
+  cursor: pointer;
+}
+
+.nav-avatar {
+  position: fixed;
+  right: 20px;
+  top: 30px;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+  .nav-logo {
+    padding-left: 2rem;
+  }
+
+  .nav-avatar {
+    right: 30px;
+  }
+}
