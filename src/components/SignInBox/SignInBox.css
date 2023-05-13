@@ -44,3 +44,9 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+@media (max-width: 540px) {
+  .sign-up-container {
+    padding: 2rem;
+  }
+}
