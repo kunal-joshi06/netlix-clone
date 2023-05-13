@@ -23,6 +23,14 @@
   color: black;
 }
 
-/* .renewal-date {
-  margin-top: 1rem;
-} */
+@media (max-width: 540px) {
+  .plans-box-container {
+    padding: 10px;
+  }
+
+  .plans-box-container > button {
+    padding: 10px;
+    height: 2.2rem;
+    margin: 14px;
+  }
+}

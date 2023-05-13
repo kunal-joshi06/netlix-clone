@@ -61,3 +61,39 @@
   border-bottom: 1px solid #282c2d;
   padding-bottom: 10px;
 }
+
+@media (max-width: 540px) {
+  .profile-page-body {
+    padding-top: 100px;
+    width: 60%;
+  }
+
+  .profile-page-body > h1 {
+    font-size: 30px;
+  }
+
+  .profile-page-info > img {
+    height: 50px;
+  }
+
+  .sign-out-btn {
+    padding: 10px;
+  }
+
+  .profile-page-details > h2 {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .renewal-date {
+    font-size: 12px;
+  }
+
+  .plans-box-container > button {
+    padding: 10px;
+  }
+
+  .profile-page-details {
+    margin-left: 10px;
+  }
+}
